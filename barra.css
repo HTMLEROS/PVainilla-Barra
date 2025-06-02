@@ -1,0 +1,36 @@
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--clr-white);
+    display: var(--transition);
+}
+
+.mostrar-barra {
+    transform: translate(0);
+}
+.social-icons {
+    display: none;
+}
+/* by default hide links*/
+.links {
+    height: 0 ;
+    overflow: hidden ;
+    transition: var();
+
+}
+
+ 
+@media screen and (min-width: 800px) {
+    .nav-center {     
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem ;   
+    }
+
+}
