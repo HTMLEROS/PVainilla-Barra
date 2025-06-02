@@ -18,9 +18,12 @@
 .links {
     height: 0 ;
     overflow: hidden ;
-    transition: var();
+    transition: var(--trancision);
 
 }
+show-links{
+    height: 10rem;
+}    
 
  
 @media screen and (min-width: 800px) {
